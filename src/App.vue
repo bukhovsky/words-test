@@ -1,12 +1,16 @@
 <template>
 <div>
   <img alt="Vue logo" src="./assets/logo.png">
+
+  <input type="text">
+
   <Button1 msg="Start"/>
 </div>  
 </template>
 
 <script>
 import Button1 from './components/Button1.vue'
+
 
 export default {
   name: 'App',
